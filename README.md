@@ -1,5 +1,13 @@
 # FPS_Testes_Automatizados
 
+## Equipe
+
+- Bruno Souza
+- Icaro Canela
+- Joseph Neiva
+- Matheus Sá
+- Roberto Santana
+
 ## Descrição
 
 Este projeto consiste em um script automatizado que executa testes em arquivos de código escritos em Python, C ou C++. O script identifica a linguagem do arquivo de entrada, compila o código (quando necessário), executa o código usando arquivos de teste fornecidos, compara a saída gerada com a saída esperada, e gera um relatório com os resultados dos testes. Além disso, o script faz um registro de cada execução em um arquivo CSV.
