@@ -48,7 +48,7 @@ Em powershell:
 
 Em bash:
 ```
-bash -x ./script.sh --input ./main.py --tests ./tests
+bash -x ./script.sh --input <caminho_para_arquivo> --tests <caminho_para_pasta_de_testes>
 ```
 
 4. Ver o Relatório: O script gera um relatório de execução diretamente no terminal com o número de testes executados, quantos passaram, quantos falharam e se houve erros.
@@ -63,8 +63,4 @@ bash -x ./script.sh --input ./main.py --tests ./tests
 Exemplo do resultado no arquivo cs:
 ```
 2024-09-28 10:30:00, ./exemplo/main.py, ./exemplo/tests/, 5, 4, 1, 0
-```
-
-```
-bash -x ./script.sh --input ./main.py --tests ./tests
 ```
