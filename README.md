@@ -44,7 +44,6 @@ Em powershell:
    ```powershell
    .\script.ps1 -InputPath <caminho_para_arquivo> -TestsPath <caminho_para_pasta_de_testes>
 
-
 4. Ver o Relatório: O script gera um relatório de execução diretamente no terminal com o número de testes executados, quantos passaram, quantos falharam e se houve erros.
 
 5. Registro de Execuções: Todas as execuções são registradas em um arquivo CSV chamado execution_log.csv. Ele armazena informações como:
