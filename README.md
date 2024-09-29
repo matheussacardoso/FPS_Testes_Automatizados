@@ -40,9 +40,16 @@ Antes de executar o script, certifique-se de ter as seguintes dependências inst
 - Prepare uma pasta de testes contendo arquivos de entrada (*.in) e arquivos de saída esperada (*.out).
 
 3. Executar o script: Para executar o script, forneça o caminho para o arquivo de código e o diretório contendo os arquivos de teste:
+
 Em powershell:
-   ```powershell
-   .\script.ps1 -InputPath <caminho_para_arquivo> -TestsPath <caminho_para_pasta_de_testes>
+```
+.\script.ps1 -InputPath <caminho_para_arquivo> -TestsPath <caminho_para_pasta_de_testes>
+```
+
+Em bash:
+```
+bash -x ./script.sh --input ./main.py --tests ./tests
+```
 
 4. Ver o Relatório: O script gera um relatório de execução diretamente no terminal com o número de testes executados, quantos passaram, quantos falharam e se houve erros.
 
@@ -54,5 +61,10 @@ Em powershell:
 - Quantos testes passaram, falharam e tiveram erros
 
 Exemplo do resultado no arquivo cs:
-```bash
+```
 2024-09-28 10:30:00, ./exemplo/main.py, ./exemplo/tests/, 5, 4, 1, 0
+```
+
+```
+bash -x ./script.sh --input ./main.py --tests ./tests
+```
