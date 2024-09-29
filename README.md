@@ -32,7 +32,7 @@ Antes de executar o script, certifique-se de ter as seguintes dependências inst
 3. Executar o script: Para executar o script, forneça o caminho para o arquivo de código e o diretório contendo os arquivos de teste:
 Em powershell:
    ```powershell
-   .\script.ps1 -InputPath <caminho_para_arquivo> -TestsPath <caminho_para_pasta_de_testes>
+   .\script.ps1 -InputPath <caminho_para_arquivo> -TestsPath <caminho_para_pasta_de_testes
 4. Ver o Relatório: O script gera um relatório de execução diretamente no terminal com o número de testes executados, quantos passaram, quantos falharam e se houve erros.
 5. Registro de Execuções: Todas as execuções são registradas em um arquivo CSV chamado execution_log.csv. Ele armazena informações como:
 - Data e hora da execução
